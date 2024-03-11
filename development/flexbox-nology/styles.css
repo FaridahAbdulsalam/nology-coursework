@@ -22,13 +22,14 @@ navbar{
     justify-content: space-between;
     width: 100%;
     height: 50px;
-    font-size: 12px;
+    font-size: 18px;
     background-color: black;
     color: white;
 }
 
+
 #nology{
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color: green;
 }
@@ -46,11 +47,50 @@ a{
     color: white;
 }
 
-panel{
+a:hover{
+    background-color: white;
+    color: green;
+}
+
+main{
+    width: 95%;
+    height: 500px;
+    margin: 25px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-panel {
+    width: 75%;
     display: flex;
     flex-direction: column;
-    height: 200px;
-    width: 400px;
-    background-color: white;
-    border: black solid 3px;
+    justify-content: space-between;
+}
+
+.card{
+    border: solid black 2px;
+    height: 25%;
+    padding: 15px;
+}
+
+ul{
+    margin-left: 50px;
+}
+
+li{
+    margin: 15px 0;
+}
+
+#right-panel {
+    width: 15%;
+    padding: 15px;
+    border: solid black 2px;
+}
+
+#right-panel h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
 }
