@@ -7,16 +7,11 @@
     align-items: center;
 }
 
-.card{
-    height: 30vh;
-    width: 200px;
+.contact{
+    min-height: 50vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: flex;
-    margin: 15px auto;
-    border: solid 2px;
-    border-color: $color-black;
-    background-color: $color-background;
+    align-items: center;
+    background-color: $color-primary;
 }
 

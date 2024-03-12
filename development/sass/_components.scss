@@ -50,29 +50,28 @@
 .wave{
     fill-opacity: 1;
     fill: $color-primary;
+    margin-bottom: -1px;
+    vertical-align: bottom;
 }
 
-.title {
-    font-family: $font-body;
-    font-size: 18px;
-    font-weight: 100;
-    margin: 5px;
+.form{
+    background-color: $color-white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
 
-    .box {
-        margin: 5px;
-        border-color: $color-black;
-        width: 170px;
-        height: 25px;
+    .input{
+        margin-bottom: 20px;
+    }
+
+    .button{
+        background-color: $color-secondary-light;
+        margin: 0 auto;
+        width: 100%;
+        border: none;
     }
 }
 
 
-.send{
-    border: solid 1px;
-    border-color: $color-black;
-    margin: 10px auto;
-    padding: 5px 40px;
-    background-color: $color-secondary-light;
-    color: $color-white;
-}
 

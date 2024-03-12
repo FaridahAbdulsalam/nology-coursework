@@ -6,17 +6,12 @@
   align-items: center;
 }
 
-.card {
-  height: 30vh;
-  width: 200px;
+.contact {
+  min-height: 50vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex;
-  margin: 15px auto;
-  border: solid 2px;
-  border-color: #333333;
-  background-color: #f5f2f2;
+  align-items: center;
+  background-color: #be8a1a;
 }
 
 .button {
@@ -62,28 +57,25 @@
 .wave {
   fill-opacity: 1;
   fill: #be8a1a;
+  margin-bottom: -1px;
+  vertical-align: bottom;
 }
 
-.title {
-  font-family: "Roboto", "sans-serif";
-  font-size: 18px;
-  font-weight: 100;
-  margin: 5px;
+.form {
+  background-color: #fafafa;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
-.title .box {
-  margin: 5px;
-  border-color: #333333;
-  width: 170px;
-  height: 25px;
+.form .input {
+  margin-bottom: 20px;
 }
-
-.send {
-  border: solid 1px;
-  border-color: #333333;
-  margin: 10px auto;
-  padding: 5px 40px;
+.form .button {
   background-color: #004e00;
-  color: #fafafa;
+  margin: 0 auto;
+  width: 100%;
+  border: none;
 }
 
 * {
