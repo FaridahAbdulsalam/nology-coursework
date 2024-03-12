@@ -12,6 +12,16 @@ a:visited {
   text-decoration: none;
 }
 
+.button {
+  display: block;
+  width: 100px;
+  background-color: #e2c108;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fafafa;
+}
+
 .navigation {
   height: 10vh;
   background-color: #be8a1a;
@@ -25,12 +35,30 @@ a:visited {
   font-size: 20px;
   font-family: "Dancing Script", cursive;
 }
-.navigation .button {
-  display: block;
-  width: 100px;
-  background-color: #e2c108;
+
+.header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .intro {
   text-align: center;
-  padding: 10px 20px;
-  border-radius: 10px;
-  color: #fafafa;
+}
+.header .intro .heading {
+  color: #be8a1a;
+  font-size: 50px;
+}
+.header .intro .sub-heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+.header .intro .button {
+  margin: 0 auto;
+}
+
+.wave {
+  fill-opacity: 1;
+  fill: #be8a1a;
 }/*# sourceMappingURL=main.css.map */
