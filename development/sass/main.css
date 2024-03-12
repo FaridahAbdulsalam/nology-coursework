@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", "sans-serif";
-  color: #333333;
-}
-
-a:link,
-a:visited {
-  text-decoration: none;
+.header {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button {
@@ -36,29 +30,36 @@ a:visited {
   font-family: "Dancing Script", cursive;
 }
 
-.header {
-  height: 70vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.header .intro {
+.intro {
   text-align: center;
 }
-.header .intro .heading {
+.intro .heading {
   color: #be8a1a;
   font-size: 50px;
 }
-.header .intro .sub-heading {
+.intro .sub-heading {
   font-family: "Dancing Script", cursive;
   font-size: 25px;
   margin: 20px 0px;
 }
-.header .intro .button {
+.intro .button {
   margin: 0 auto;
 }
 
 .wave {
   fill-opacity: 1;
   fill: #be8a1a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", "sans-serif";
+  color: #333333;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */

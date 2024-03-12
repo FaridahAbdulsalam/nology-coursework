@@ -1,13 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
-
-$font-body: "Roboto", "sans-serif";
-$font-display: "Dancing Script", cursive;
-
-$color-primary: #be8a1a;
-$color-primary-light: #f1c446;
-$color-secondary: #e2c108;
-$color-black: #333333;
-$color-white: #fafafa; 
+@use "./variables" as *;
+@use "./layouts";
+@use "./components";
 
 *{
     margin: 0;
@@ -20,61 +13,4 @@ $color-white: #fafafa;
 a:link,
 a:visited{
     text-decoration: none;
-}
-
-.button{
-    display: block;
-    width: 100px;
-    background-color: $color-secondary;
-    text-align: center;
-    padding: 10px 20px;
-    border-radius: 10px;
-    color: $color-white;
-}
-
-.navigation{
-    height: 10vh;
-    background-color: $color-primary;
-    padding: 0 40px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    .logo{
-        color: $color-white;
-        font-size: 20px;
-        font-family: $font-display;
-    }
-
-}
-
-.header {
-    height: 70vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .intro{
-        text-align: center;
-        
-        .heading{
-            color: $color-primary;
-            font-size: 50px;
-        }
-
-        .sub-heading{
-            font-family: $font-display;
-            font-size: 25px;
-            margin: 20px 0px;
-        }
-
-        .button{
-            margin: 0 auto;
-        }
-    }
-}
-
-.wave{
-    fill-opacity: 1;
-    fill: $color-primary;
 }
