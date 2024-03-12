@@ -1,4 +1,5 @@
 @use "./variables" as *;
+@use "./layouts" as *;
 
 .button{
     display: block;
@@ -49,5 +50,12 @@
 .wave{
     fill-opacity: 1;
     fill: $color-primary;
+}
+
+.title{
+    font-family: $font-body;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 20px 10px;
 }
 
