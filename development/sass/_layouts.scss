@@ -1,3 +1,4 @@
+@use "./variables" as *;
 
 .header {
     height: 70vh;
@@ -7,8 +8,13 @@
 }
 
 .card{
-    height: 20vh;
+    height: 30vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 2px;
+    border-color: $color-black;
+    width: 230px;
+    background-color: $color-background;
+    margin: 15px auto;
 }
