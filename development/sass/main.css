@@ -8,11 +8,11 @@
 
 .card {
   height: 30vh;
-  width: 230px;
+  width: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex;
   margin: 15px auto;
   border: solid 2px;
   border-color: #333333;
@@ -68,7 +68,22 @@
   font-family: "Roboto", "sans-serif";
   font-size: 18px;
   font-weight: 100;
-  margin: 20px 10px;
+  margin: 5px;
+}
+.title .box {
+  margin: 5px;
+  border-color: #333333;
+  width: 170px;
+  height: 25px;
+}
+
+.send {
+  border: solid 1px;
+  border-color: #333333;
+  margin: 10px auto;
+  padding: 5px 40px;
+  background-color: #004e00;
+  color: #fafafa;
 }
 
 * {

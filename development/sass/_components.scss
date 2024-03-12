@@ -52,10 +52,27 @@
     fill: $color-primary;
 }
 
-.title{
+.title {
     font-family: $font-body;
     font-size: 18px;
     font-weight: 100;
-    margin: 20px 10px;
+    margin: 5px;
+
+    .box {
+        margin: 5px;
+        border-color: $color-black;
+        width: 170px;
+        height: 25px;
+    }
+}
+
+
+.send{
+    border: solid 1px;
+    border-color: $color-black;
+    margin: 10px auto;
+    padding: 5px 40px;
+    background-color: $color-secondary-light;
+    color: $color-white;
 }
 
