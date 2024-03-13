@@ -1,1 +1,13 @@
-/*# sourceMappingURL=styles.css.map */
+@media screen and (min-width: 360px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  header {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}/*# sourceMappingURL=styles.css.map */
