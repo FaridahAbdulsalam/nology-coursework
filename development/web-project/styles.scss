@@ -1,4 +1,6 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Dancing+Script&family=Roboto&display=swap');
+
 @media screen and (min-width: 360px) {
 
 *{
@@ -7,11 +9,23 @@
     box-sizing: border-box;
 }
 
-header{
+.flex-container{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   height: 20vh;
+
+   #pglasses{
+    height: 20vh;
+   }
+
+   h1{
+    font-size: 115px;
+    font-family: "Boogaloo";
     height: 20vh;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+   }
 }
 
 }
