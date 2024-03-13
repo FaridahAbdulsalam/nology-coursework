@@ -65,4 +65,36 @@
 .mobile-container .mobile {
   display: inline-block;
   height: 35vh;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Sans";
+  height: 35vh;
+  margin: 20px;
+}
+.info-container .pr {
+  height: 15vh;
+  padding: 40px;
+  font-size: 40px;
+  text-align: center;
+  color: #000059;
+}
+.info-container .Dad {
+  height: 15vh;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 900;
+  color: #00bfff;
+  text-align: center;
+}
+.info-container p {
+  height: 20vh;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  color: #000059;
 }/*# sourceMappingURL=styles.css.map */

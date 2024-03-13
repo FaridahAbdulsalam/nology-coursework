@@ -87,4 +87,39 @@ $color-secondary: #00bfff;
     }
 }
 
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-standard;
+    height: 35vh;
+    margin: 20px;
+
+    .pr{
+        height: 15vh;
+        padding: 40px;
+        font-size: 40px;
+        text-align: center;
+        color: $color-primary;
+    }
+    
+    .Dad{
+        height: 15vh;
+        padding: 40px;
+        font-size: 30px;
+        font-weight: 900;
+        color: $color-secondary;
+        text-align: center;
+    }
+
+    p{
+        height: 20vh;
+        padding: 10px;
+        font-size: 20px;
+        text-align: center;
+        color: $color-primary;
+
+    }
+}
 
