@@ -165,4 +165,15 @@ section .penguin-four {
 }
 section .penguin-four img {
   height: 10vh;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(247, 247, 160, 0.315);
+}
+footer h1 {
+  padding: 30px;
 }/*# sourceMappingURL=styles.css.map */
