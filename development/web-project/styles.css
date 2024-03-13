@@ -1,57 +1,68 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Dancing+Script&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-@media screen and (min-width: 360px) {
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .flex-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 20vh;
-    padding: 20px;
-  }
-  .flex-container #pglasses {
-    height: 100%;
-    width: 140px;
-  }
-  .flex-container h1 {
-    font-size: 115px;
-    font-family: "Boogaloo";
-    font-weight: 200;
-    color: #000059;
-    margin-right: 80px;
-  }
-  .flex-container button {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding: 20px 40px;
-    margin-right: 20px;
-    border-radius: 5px;
-    background-color: #ffffff;
-    border: solid 1.5px;
-    border-color: #000059;
-    color: #000059;
-    font-weight: 900;
-    font-family: "IBM Plex Sans";
-    font-size: 30px;
-  }
-  .slogan-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 30vh;
-  }
-  .slogan-container .slogan {
-    font-family: "Nunito";
-    font-weight: 800;
-    font-size: 60px;
-    text-align: center;
-    color: #00bfff;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 20vh;
+  padding: 20px;
+}
+.flex-container #pglasses {
+  height: 100%;
+  width: 140px;
+}
+.flex-container h1 {
+  font-size: 115px;
+  font-family: "Boogaloo";
+  font-weight: 200;
+  color: #000059;
+  margin-right: 80px;
+}
+.flex-container button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 20px 40px;
+  margin-right: 20px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: solid 1.5px;
+  border-color: #000059;
+  color: #000059;
+  font-weight: 900;
+  font-family: "IBM Plex Sans";
+  font-size: 30px;
+}
+
+.slogan-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  height: 30vh;
+}
+.slogan-container .slogan {
+  font-family: "Nunito";
+  font-weight: 800;
+  font-size: 60px;
+  text-align: center;
+  color: #00bfff;
+}
+
+.mobile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+.mobile-container .mobile {
+  display: inline-block;
+  height: 35vh;
 }/*# sourceMappingURL=styles.css.map */
