@@ -97,4 +97,32 @@
   font-size: 20px;
   text-align: center;
   color: #000059;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  margin: 20px;
+}
+.button-container button {
+  padding: 20px 80px;
+  font-family: "IBM Plex Sans";
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 5px;
+  border-color: #000059;
+  color: #ffffff;
+  background-color: #000059;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+  font-family: "IBM Plex Sans";
+  color: #000059;
+  margin-bottom: 20px;
 }/*# sourceMappingURL=styles.css.map */

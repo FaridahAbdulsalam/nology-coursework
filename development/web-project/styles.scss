@@ -123,3 +123,33 @@ $color-secondary: #00bfff;
     }
 }
 
+
+.button-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    margin: 20px;
+
+    button{
+        padding: 20px 80px;
+        font-family: $font-standard;
+        font-size: 20px;
+        font-weight: 900;
+        border-radius: 5px;
+        border-color: $color-primary;
+        color: $color-white;
+        background-color: $color-primary;
+    }
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-family: $font-standard;
+    color: $color-primary;
+    margin-bottom: 20px;
+}
+
