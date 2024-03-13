@@ -121,8 +121,48 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 15vh;
   font-family: "IBM Plex Sans";
   color: #000059;
-  margin-bottom: 20px;
+  padding: 40px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: 40vh;
+  margin: 0 auto;
+}
+section .penguin-one {
+  height: 10vh;
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+}
+section .penguin-one img {
+  display: flex;
+  height: 10vh;
+  align-items: flex-start;
+}
+section .penguin-two {
+  height: 10vh;
+  font-family: "IBM Plex Sans";
+}
+section .penguin-two img {
+  height: 10vh;
+}
+section .penguin-three {
+  height: 10vh;
+  font-family: "IBM Plex Sans";
+}
+section .penguin-three img {
+  height: 10vh;
+}
+section .penguin-four {
+  height: 10vh;
+  font-family: "IBM Plex Sans";
+}
+section .penguin-four img {
+  height: 10vh;
 }/*# sourceMappingURL=styles.css.map */

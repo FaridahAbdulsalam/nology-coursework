@@ -147,9 +147,58 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 15vh;
     font-family: $font-standard;
     color: $color-primary;
-    margin-bottom: 20px;
+    padding:40px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 40vh;
+    margin: 0 auto;
+
+    .penguin-one{
+        height: 10vh;
+        font-family: $font-standard;
+        font-size: 18px;
+
+        img{
+            display: flex;
+            height: 10vh;
+            align-items: flex-start;
+        }
+    }
+
+    .penguin-two{
+        height: 10vh;
+        font-family: $font-standard;
+
+        img{
+            height: 10vh;
+    
+        }
+    }
+
+    .penguin-three{
+        height: 10vh;
+        font-family: $font-standard;
+
+        img{
+            height: 10vh;
+        }
+    }
+
+    .penguin-four{
+        height: 10vh;
+        font-family: $font-standard;
+
+        img{
+            height: 10vh;
+        }
+    }
 }
 
