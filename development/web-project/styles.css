@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Dancing+Script&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @media screen and (min-width: 360px) {
   * {
     margin: 0;
@@ -38,5 +39,19 @@
     font-weight: 900;
     font-family: "IBM Plex Sans";
     font-size: 30px;
+  }
+  .slogan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 30vh;
+  }
+  .slogan-container .slogan {
+    font-family: "Nunito";
+    font-weight: 800;
+    font-size: 60px;
+    text-align: center;
+    color: #00bfff;
   }
 }/*# sourceMappingURL=styles.css.map */
