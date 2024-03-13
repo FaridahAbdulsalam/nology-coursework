@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Boogaloo&family=Dancing+Script&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
 @media screen and (min-width: 360px) {
   * {
     margin: 0;
@@ -10,17 +11,18 @@
     justify-content: space-between;
     align-items: center;
     height: 20vh;
+    padding: 20px;
   }
   .flex-container #pglasses {
     height: 100%;
-    width: 110px;
+    width: 140px;
   }
   .flex-container h1 {
-    font-size: 70px;
+    font-size: 115px;
     font-family: "Boogaloo";
     font-weight: 200;
     color: #000059;
-    margin-right: 100px;
+    margin-right: 80px;
   }
   .flex-container button {
     display: flex;
@@ -28,10 +30,13 @@
     justify-content: flex-end;
     padding: 20px 40px;
     margin-right: 20px;
-    border-radius: 10%;
+    border-radius: 5px;
     background-color: #ffffff;
-    border: solid 1px;
+    border: solid 1.5px;
     border-color: #000059;
     color: #000059;
+    font-weight: 900;
+    font-family: "IBM Plex Sans";
+    font-size: 30px;
   }
 }/*# sourceMappingURL=styles.css.map */

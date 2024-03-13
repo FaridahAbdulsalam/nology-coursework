@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Dancing+Script&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 
 $color-primary: #000059;
 $color-white: #ffffff;
+$font-standard: "IBM Plex Sans";
 
 @media screen and (min-width: 360px) 
 
@@ -21,20 +23,21 @@ $color-white: #ffffff;
         justify-content: space-between;
         align-items: center;
         height: 20vh;
+        padding: 20px;
 
         #pglasses
         {
             height: 100%;
-            width: 110px;
+            width: 140px;
         }
 
         h1
         {
-            font-size: 70px;
+            font-size: 115px;
             font-family: "Boogaloo";
             font-weight: 200;
             color: $color-primary;
-            margin-right: 100px;
+            margin-right: 80px;
         }
 
         button
@@ -44,11 +47,14 @@ $color-white: #ffffff;
             justify-content: flex-end;
             padding: 20px 40px;
             margin-right: 20px;
-            border-radius: 10%;
+            border-radius: 5px;
             background-color:$color-white;
-            border: solid 1px;
+            border: solid 1.5px;
             border-color: $color-primary;
             color: $color-primary;
+            font-weight: 900;
+            font-family: $font-standard;
+            font-size: 30px;
         }
     }
 
