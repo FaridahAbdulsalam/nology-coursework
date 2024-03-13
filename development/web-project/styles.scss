@@ -32,8 +32,13 @@ $color-primary: #000059;
 
    .login{
     display: flex;
-    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 40px;
    }
+
+   
+
 }
 
 }
