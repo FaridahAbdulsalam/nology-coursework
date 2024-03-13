@@ -8,8 +8,6 @@ $color-white: #ffffff;
 $font-standard: "IBM Plex Sans";
 $color-secondary: #00bfff;
 
-
-
 *
 {
     margin: 0;
@@ -21,14 +19,14 @@ $color-secondary: #00bfff;
 .flex-container
 {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 20vh;
     padding: 20px;
 
     #pglasses
     {
-        height: 100%;
+        height: 20vh;
         width: 140px;
     }
 
@@ -38,7 +36,7 @@ $color-secondary: #00bfff;
         font-family: "Boogaloo";
         font-weight: 200;
         color: $color-primary;
-        margin-right: 80px;
+        margin-right: 800px;
     }
 
     button
@@ -47,7 +45,7 @@ $color-secondary: #00bfff;
         align-items: center;
         justify-content: flex-end;
         padding: 20px 40px;
-        margin-right: 20px;
+        margin-left: -200px;
         border-radius: 5px;
         background-color:$color-white;
         border: solid 1.5px;
