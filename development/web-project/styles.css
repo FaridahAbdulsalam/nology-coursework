@@ -22,10 +22,16 @@
     color: #000059;
     margin-right: 100px;
   }
-  .flex-container .login {
+  .flex-container button {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     padding: 20px 40px;
+    margin-right: 20px;
+    border-radius: 10%;
+    background-color: #ffffff;
+    border: solid 1px;
+    border-color: #000059;
+    color: #000059;
   }
 }/*# sourceMappingURL=styles.css.map */
