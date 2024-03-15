@@ -37,3 +37,26 @@ function calculateDaysLeft(event){
     }
 
 }
+
+function checkPrice(event){
+    let veg = event.target.value;
+    veg = veg.toLowerCase();
+
+    switch(veg){
+        case "potatoes":
+        case "carrots":
+            alert(veg + " cost £3 per kg")
+            break;
+        case "brocolli":
+            alert(veg + " cost £1.50 per kg")
+            break;
+        case "cabbage":
+            alert(veg + " cost £2 per kg")
+            break;
+        case "asparagus":
+            alert(veg + " cost £4 per kg")
+            break;
+        default:
+            alert("Sorry we do not have the pricing for " + veg + " at this time")
+    }
+}
