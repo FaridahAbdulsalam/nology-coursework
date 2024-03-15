@@ -39,8 +39,7 @@ function calculateDaysLeft(event){
 }
 
 function checkPrice(event){
-    let veg = event.target.value;
-    veg = veg.toLowerCase();
+    let veg = event.target.value.toLowerCase();
 
     switch(veg){
         case "potatoes":
@@ -60,3 +59,8 @@ function checkPrice(event){
             alert("Sorry we do not have the pricing for " + veg + " at this time")
     }
 }
+
+const selectElement = document.querySelector(".vegetables");
+const result = document.querySelector(".result");
+
+selectElement.addEventListener("change", checkPrice);
