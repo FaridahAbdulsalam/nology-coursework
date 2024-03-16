@@ -22,11 +22,11 @@ getDescription(0, "Trey", "London", "Laywer")
 //Call that function 3x, diff values each time
 //Bonus: Accept floating point values for amount per dat, and round the result to a round number
 
-const calculateSupply = (age, amountPerDay) => {
-    const maxAge = 95;
-    let averageConsumption = (amountPerDay * 365);
+const calculateSupply = (currrentAge, amountOfSnickersPerDay) => {
+    const maxAge = 90;
+    let averageConsumption = (amountOfSnickersPerDay * 365);
     let lifetimeIntake = averageConsumption * maxAge;
-    let currentIntake = averageConsumption * age;
+    let currentIntake = averageConsumption * currrentAge;
     let averageSupply = lifetimeIntake - currentIntake;
 
     const message = `You will need  ${averageSupply} Snickers to last you until the age of ${maxAge}`
@@ -34,7 +34,7 @@ const calculateSupply = (age, amountPerDay) => {
     console.log(message);
 }
 
-calculateSupply(7, 2);
-calculateSupply(19, 5);
-calculateSupply(67, 1.3);
+calculateSupply(28, 4);
+calculateSupply(28, 2.5);
+calculateSupply(28, 12);
 
