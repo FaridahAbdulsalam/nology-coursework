@@ -32,9 +32,7 @@ console.log(calculateArea(2));
 // }
 
 const calculateCircumference = (radius) => {
-    const circumefrence = 2 * (Math.PI * radius);
-
-    return Math.floor(circumefrence);
+    return Math.floor(2 * (Math.PI * radius));
 }
 
 console.log(calculateCircumference(7));
