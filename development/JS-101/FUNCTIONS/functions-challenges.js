@@ -38,11 +38,11 @@ console.log(getLargestNumber(10, 100, 1000));
 
 
 //4. Write a function that takes an array of names and returns the last name from the array of names.
-function getLastNames(){
-   let array = ["Fisher", "Ashford", "Bukayo"];
+function getLastNames([name1, name2, name3]){
+   let array = [name1, name2, name3];
    return array[2];
 } 
-console.log(getLastNames());
+console.log(getLastNames(["Bukayo", "Fisher", "Saka"]));
 
 
 
