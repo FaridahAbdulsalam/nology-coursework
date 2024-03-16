@@ -1,33 +1,40 @@
 // **Challenge**
 //1. Write a function to find the perimiter of a rectangle.
-function calculatePerimeter(){
-    let length = 12;
-    let width = 6;
-    let perimeter = (length + width)*2;
-
-    console.log(perimeter)
+const calculatePerimeter = (width, height) => {
+    return (width + height) * 2;
 }
 
-calculatePerimeter();
+console.log(calculatePerimeter(1, 1));
 
 //2. Write a function to find the area of a circle. When given a radius, print the area to the console.
-function calculateRadius(){
-    let radius = 8;
-    let pi = Math.PI;
-    let area = Math.floor(pi *(radius ** 2));
+// function calculateRadius(){
+//     let radius = 8;
+//     let pi = Math.PI;
+//     let area = Math.floor(pi *(radius ** 2));
 
-    console.log(area);
+//     console.log(area);
+// }
+
+const calculateArea = (radius) =>{
+    const area = Math.PI * (radius ** 2);
+
+    return Math.floor(area);
 }
-
-calculateRadius();
+console.log(calculateArea(2));
 
 //3. Now do the same to find the circumefrence of a circle...
-function calculateCircumference(){
-    let radius = 10;
-    let pi = Math.PI;
-    let circumefrence = Math.floor(2 * (pi * radius));
+// function calculateCircumference(){
+//     let radius = 10;
+//     let pi = Math.PI;
+//     let circumefrence = Math.floor(2 * (pi * radius));
 
-    console.log(circumefrence);
+//     console.log(circumefrence);
+// }
+
+const calculateCircumference = (radius) => {
+    const circumefrence = 2 * (Math.PI * radius);
+
+    return Math.floor(circumefrence);
 }
 
-calculateCircumference();
+console.log(calculateCircumference(7));
