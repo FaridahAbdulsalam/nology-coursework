@@ -6,7 +6,7 @@
 const getDescription = (amountOfChildren, partner, location, jobTitle) =>{
     const message = `I am currently a ${jobTitle} living in ${location} , married to ${partner} with ${amountOfChildren} kids`;
     
-    console.log(message);
+    //console.log(message);
 }
 
 getDescription(4, "Khalil", "Kent", "Chef")
@@ -31,10 +31,35 @@ const calculateSupply = (currrentAge, amountOfSnickersPerDay) => {
 
     const message = `You will need  ${averageSupply} Snickers to last you until the age of ${maxAge}`
 
-    console.log(message);
+    //console.log(message);
 }
 
 calculateSupply(28, 4);
 calculateSupply(28, 2.5);
 calculateSupply(28, 12);
 
+//**The Temperature Converter *
+//Celcius to Farenheit
+
+const convertTemperature = (degreesCelcius) =>{
+
+    let degreesFarenheit = (degreesCelcius * (9/5)) + 32;
+    let celciusSymbol = "\u00B0C";
+    let farenheitSymbol = "\u00B0F";
+
+    const message = `${degreesCelcius}${celciusSymbol} converted is: ${degreesFarenheit}${farenheitSymbol}`;
+    console.log(message);
+}
+convertTemperature(20)
+
+//Puppy Age Calculator
+//How old is your dog in dog years, since you know human years.
+//based on 7 human years = 2 dog years (calc = human years /15)
+
+const dogYearsCalculator = (dogYears) => {
+    let humanYears = dogYears * 7;
+
+    console.log(Math.floor(humanYears));
+}
+
+dogYearsCalculator(7)
