@@ -18,5 +18,28 @@ function convertDaysToAge(days){
 convertDaysToAge(730);
 
 //3. Write a function that takes three numbers and returns the largest of the three numbers.
+function getLargestNumber(num1, num2, num3){
+
+    if(num1 > num2 && num1 > num3){
+        return num1 + " is the largest number";
+    } 
+    else if(num2 > num1 && num2 > num3){
+        return num2 + " is the largest number";
+    } 
+    else if(num3 > num1 && num3 > num2){
+        return num3 + " is the largest number";
+    } else {
+        return "All numbers are the same";
+    }
+}
+console.log(getLargestNumber(3, 6, 9));
+console.log(getLargestNumber(2, 4, 6));
+console.log(getLargestNumber(10, 100, 1000));
+
+
 //4. Write a function that takes an array of names and returns the last name from the array of names.
+const names = ["Kay", "Vanessa", "Katherine"];
+console.log(names[2]);
+
+
 //5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
