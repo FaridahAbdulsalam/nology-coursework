@@ -43,8 +43,26 @@ function getLastNames([name1, name2, name3]){
    return array[2];
 } 
 console.log(getLastNames(["Bukayo", "Fisher", "Saka"]));
-
-
+console.log(getLastNames(["Rowland", "Hudson", "Knowles"]));
+console.log(getLastNames(["Cooper", "Downey Jr", "Perry"]));
 
 
 //5. Write a function that takes an array of numbers and returns true if all of the numbers are positive. It should return false if there are one or more negative numbers in the array.
+function allNumbersPositive(num1, num2, num3){
+    let array = [num1, num2, num3];
+
+    for (let index = 0; index < array.length; index++){
+        if(array[index] >= 0){
+            continue;
+        } else{
+            return false;
+        }
+    }
+    return true;
+}
+console.log(allNumbersPositive(1, 6, -5));
+console.log(allNumbersPositive(7, 6, 5));
+console.log(allNumbersPositive(-5, 2, -9));
+
+
+
