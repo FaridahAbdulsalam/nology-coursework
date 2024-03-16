@@ -17,5 +17,9 @@ console.log(colours[0]);
 console.log(colours[2]);
 console.log(colours[3]);
 
+//3. Create a smaple for loop
 
+for (let index = 0; index < 10; index++){
+    console.log("The index for this loop is " + index)
+}
 
