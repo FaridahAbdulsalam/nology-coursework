@@ -13,4 +13,28 @@ getDescription(4, "Khalil", "Kent", "Chef")
 getDescription(2, "Sade", "Canada", "Engineer")
 getDescription(0, "Trey", "London", "Laywer")
 
+//**The Lifetime Supply of Snickers**
+
+//Write a function named calculateSuply that:
+//takes 2 arguments: age, amount per day.
+//calculates the amount consumed for the rest of your life (based on const max age).
+//outputs the result to the console like so: "You will need X to last you until the age of Y"
+//Call that function 3x, diff values each time
+//Bonus: Accept floating point values for amount per dat, and round the result to a round number
+
+const calculateSupply = (age, amountPerDay) => {
+    const maxAge = 95;
+    let averageConsumption = (amountPerDay * 365);
+    let lifetimeIntake = averageConsumption * maxAge;
+    let currentIntake = averageConsumption * age;
+    let averageSupply = lifetimeIntake - currentIntake;
+
+    const message = `You will need  ${averageSupply} Snickers to last you until the age of ${maxAge}`
+
+    console.log(message);
+}
+
+calculateSupply(7, 2);
+calculateSupply(19, 5);
+calculateSupply(67, 1.3);
 
