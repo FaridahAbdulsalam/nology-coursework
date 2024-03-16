@@ -56,10 +56,10 @@ convertTemperature(20)
 //How old is your dog in dog years, since you know human years.
 //based on 7 human years = 2 dog years (calc = human years /15)
 
-const dogYearsCalculator = (dogYears) => {
-    let humanYears = dogYears * 7;
+const dogYearsCalculator = (age) => {
+    let dogAge = age * 7;
 
-    console.log(Math.floor(humanYears));
+    console.log("Your dog is " + dogAge + " in dog years!");
 }
 
-dogYearsCalculator(7)
+dogYearsCalculator(3)
